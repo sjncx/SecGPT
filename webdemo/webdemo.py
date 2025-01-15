@@ -228,3 +228,4 @@ if __name__ == "__main__":
     parser.add_argument("--share_gradio", type=bool, default=False, help="开放外网访问")
     args = parser.parse_args()
     main(args.base_model, args.lora, args.share_gradio)
+    print("启动成功")
